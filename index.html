@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Moussa Cissokho, développeur web débutant et étudiant en informatique à Dakar.">
+    <title>Portfolio – Moussa Cissokho</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <h1><span>C</span>issokho-<span>C</span>ode</h1>
+            <nav aria-label="Navigation principale">
+                <ul>
+                    <li><a href="#accueil"><i class="fa-solid fa-house"></i> Accueil</a></li>
+                    <li><a href="#apropos"><i class="fa-solid fa-user"></i> À propos</a></li>
+                    <li><a href="#mes-projets"><i class="fa-solid fa-code"></i> Mes projets</a></li>
+                    <li><a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Section hero -->
+        <section id="accueil" class="hero">
+            <div class="para">
+                <h2>Je suis Moussa Cissokho</h2>
+                <p>Développeur web débutant</p>
+                <a href="#contact" class="btn">Contactez-moi</a>
+            </div>
+            <div class="reseaux">
+                <!-- Remplacez les "#" par vos vrais liens -->
+                <a href="#" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://github.com/cissokho-code" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </section>
+
+        <!-- Section compétences / à propos -->
+        <section id="apropos" class="competence">
+            <h2>Mes compétences en développement web <i class="fa-solid fa-laptop-code"></i></h2>
+            <div class="icone">
+                <div class="carte-icone" title="HTML5"><i class="fa-brands fa-html5" aria-label="HTML5"></i></div>
+                <div class="carte-icone" title="CSS3"><i class="fa-brands fa-css" aria-label="CSS3"></i></div>
+                <div class="carte-icone" title="GitHub"><i class="fa-brands fa-square-github" aria-label="GitHub"></i></div>
+            </div>
+        </section>
+
+        <!-- Section projets -->
+        <section id="mes-projets" class="Mes-projets">
+            <h1>Mes projets <i class="fa-solid fa-code"></i></h1>
+            <div class="tous-carte">
+                <div class="carte">
+                    <h2>Restaurant</h2>
+                    <p>Projet réalisé avec HTML et CSS</p>
+                    <p>
+                        <a href="https://cissokho-code.github.io/ResTo/" target="_blank" rel="noopener" aria-label="Voir le projet Restaurant">
+                            <i class="fa-solid fa-utensils"></i>
+                        </a>
+                    </p>
+                </div>
+                <div class="carte">
+                    <h2>Plateforme éducative</h2>
+                    <p>Projet réalisé avec HTML et CSS</p>
+                    <p>
+                        <a href="https://cissokho-code.github.io/GROUPE-10/" target="_blank" rel="noopener" aria-label="Voir le projet Plateforme éducative">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </a>
+                    </p>
+                </div>
+                <div class="carte">
+                    <h2>Calculatrice</h2>
+                    <p>Projet réalisé avec HTML, CSS et JavaScript</p>
+                    <p>
+                        <!-- Renommez le dossier "mes projets" en "mes-projets" -->
+                        <a href="mes-projets/index.html" target="_blank" rel="noopener" aria-label="Voir le projet Calculatrice">
+                            <i class="fa-solid fa-calculator"></i>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section contact -->
+        <section id="contact" class="contact">
+            <h2>Contactez-moi</h2>
+            <form action="https://formspree.io/f/mnppdlvy" method="POST">
+                <input type="text" name="nom" placeholder="Votre nom" aria-label="Votre nom" required>
+                <input type="text" name="prenom" placeholder="Votre prénom" aria-label="Votre prénom" required>
+                <input type="email" name="email" placeholder="Votre e-mail" aria-label="Votre e-mail" required>
+                <textarea name="message" id="message" cols="45" rows="4" placeholder="Écrivez votre message ici" aria-label="Votre message" required></textarea>
+                <input class="bouton" type="submit" value="Envoyer">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="tous-les-footer">
+            <div class="logo-footer">
+                <h1><span>C</span>issokho-<span>C</span>ode</h1>
+                <p>Moussa Cissokho, étudiant en informatique à l'UCAB de Dakar</p>
+                <p>© <span id="annee">2026</span> cissokho-code. Tous droits réservés.</p>
+            </div>
+            <div class="menu-footer">
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#apropos">À propos</a></li>
+                    <li><a href="#mes-projets">Mes projets</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="reseaux-footer">
+                <a href="#" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-square-whatsapp"></i></a>
+                <a href="cissokom066@gmail.com" aria-label="E-mail"><i class="fa-solid fa-envelope"></i></a>
+                <a href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Fichier JS (créez script.js, même vide, pour éviter l'erreur 404) -->
+    <script src="script.js"></script>
+</body>
+
+</html>
